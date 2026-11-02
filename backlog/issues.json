@@ -1,0 +1,146 @@
+[
+  {
+    "title": "FOX-001 — Cadrer les frontières du MVP",
+    "body": "## Objectif\nDéfinir acteurs, parcours, fonctionnalités incluses/exclues et critères de réussite.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 0",
+    "labels": [
+      "type:story",
+      "area:docs",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-002 — Documenter les contrats Core ↔ Robot Runtime",
+    "body": "## Objectif\nDéfinir commandes, événements, erreurs, version et timeouts.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 0",
+    "labels": [
+      "type:story",
+      "area:core",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-003 — Initialiser solution ASP.NET Core",
+    "body": "## Objectif\nCréer la solution, API minimale, endpoint /health, tests unitaires et documentation de lancement.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 1",
+    "labels": [
+      "type:story",
+      "area:core",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-004 — Définir le modèle de domaine des projets",
+    "body": "## Objectif\nModéliser Workspace, Project, Issue, Sprint, Repository et états.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 1",
+    "labels": [
+      "type:story",
+      "area:core",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-005 — Mettre en place la persistance SQLite",
+    "body": "## Objectif\nDéfinir migrations et repository de stockage, tests avec base temporaire.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 1",
+    "labels": [
+      "type:story",
+      "area:core",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-006 — Initialiser Python Robot Runtime",
+    "body": "## Objectif\nCréer paquet installable, /health ou CLI de diagnostic, lint et tests.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 1",
+    "labels": [
+      "type:story",
+      "area:runtime",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-007 — Implémenter Capability Registry",
+    "body": "## Objectif\nCharger manifeste simulé, signaler capacités indisponibles, tester fallback.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 1",
+    "labels": [
+      "type:story",
+      "area:runtime",
+      "priority:P0"
+    ]
+  },
+  {
+    "title": "FOX-008 — Implémenter événements Companion Engine",
+    "body": "## Objectif\nGérer Idle, Thinking, Alert, Sleeping et transitions testables.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 2",
+    "labels": [
+      "type:story",
+      "area:core",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-009 — Initialiser interface React",
+    "body": "## Objectif\nCréer écran de statut compagnon et appel au health backend.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 2",
+    "labels": [
+      "type:story",
+      "area:web",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-010 — Construire simulation 2D du visage",
+    "body": "## Objectif\nClignements et expressions sans Ollama ni matériel.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 2",
+    "labels": [
+      "type:story",
+      "area:web",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-011 — Intégrer GitHub en lecture seule",
+    "body": "## Objectif\nLire issues et PR d’un dépôt autorisé, gérer limites et erreurs API.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 3",
+    "labels": [
+      "type:story",
+      "area:core",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-012 — Afficher Kanban du projet",
+    "body": "## Objectif\nMapper les statuts et afficher les US et tâches.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 3",
+    "labels": [
+      "type:story",
+      "area:web",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-013 — Client Ollama configurable",
+    "body": "## Objectif\nDéfinir URL privée, timeouts, health, modèles disponibles; aucun secret dans le dépôt.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 4/5",
+    "labels": [
+      "type:story",
+      "area:ai",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-014 — Recherche dans la documentation",
+    "body": "## Objectif\nIndex simple et sources citées, ne pas transmettre les secrets.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 4/5",
+    "labels": [
+      "type:story",
+      "area:ai",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-015 — Premier scénario question de code",
+    "body": "## Objectif\nLier question, recherche de fichiers, génération Ollama et références.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 4/5",
+    "labels": [
+      "type:story",
+      "area:ai",
+      "priority:P1"
+    ]
+  },
+  {
+    "title": "FOX-016 — Documenter protocole de driver matériel",
+    "body": "## Objectif\nSpécifier capacités, garde-fous moteurs et adaptateur de simulation.\n\n## Critères d’acceptation\n- [ ] Fonctionnement vérifiable et documenté\n- [ ] Tests adaptés ajoutés\n- [ ] Pas de dépendance à un appareil physique pour le CI\n\n**Jalon proposé :** Sprint 4/5",
+    "labels": [
+      "type:story",
+      "area:hardware",
+      "priority:P1"
+    ]
+  }
+]

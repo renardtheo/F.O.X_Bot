@@ -1,0 +1,1 @@
+{"name":"Basic desk companion demo","steps":[{"event":"startup","expression":"idle"},{"event":"task.completed","expression":"happy"},{"event":"ci.failed","expression":"alert"}]}

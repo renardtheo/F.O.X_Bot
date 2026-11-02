@@ -1,0 +1,23 @@
+name: fox
+services:
+  core-api:
+    build: ./apps/core-api
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      Ollama__BaseUrl: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      Ollama__Model: ${OLLAMA_MODEL:-gemma3:4b}
+      Web__Origin: http://localhost:5173
+    ports:
+      - "127.0.0.1:5080:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  robot-runtime:
+    build: ./apps/robot-runtime
+    ports:
+      - "127.0.0.1:8001:8000"
+  web:
+    build: ./apps/web
+    depends_on:
+      - core-api
+    ports:
+      - "127.0.0.1:8088:80"

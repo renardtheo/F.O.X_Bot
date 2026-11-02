@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"FOX Companion Expression Command","type":"object","properties":{"expression":{"enum":["idle","happy","thinking","curious","alert","sleeping"]}},"required":["expression"],"additionalProperties":false}
